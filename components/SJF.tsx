@@ -111,7 +111,7 @@ const SJF = () => {
                   className="grid w-full grid-cols-7 px-2 py-2 border-b-4 border-blue-500 border-x-4"
                 >
                   <div className="col-span-1 text-sm font-medium text-center">
-                    {j?.id}
+                    {j?.id + 1}
                   </div>
                   <div className="col-span-2 text-sm text-center">{j.time}</div>
                   <div className="col-span-2 text-sm text-center">
@@ -127,7 +127,7 @@ const SJF = () => {
           {
             <div
               className={`flex items-center gap-4 ${
-                job?.length !== 0 && 'h-auto'
+                job?.length !== 0 && '!h-auto'
               } ${!input && 'h-full'}`}
             >
               {input && (

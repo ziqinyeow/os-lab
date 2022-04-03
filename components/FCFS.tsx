@@ -103,7 +103,7 @@ const FCFS = () => {
           {
             <div
               className={`flex items-center gap-4 ${
-                job?.length !== 0 && 'h-auto'
+                job?.length !== 0 && '!h-auto'
               } ${!input && 'h-full'}`}
             >
               {input && (
