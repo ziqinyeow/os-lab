@@ -110,7 +110,7 @@ const FCFS = () => {
                 <div className="flex items-center w-full gap-4">
                   <div className="flex items-center w-full gap-5 p-5 border-4 border-blue-500 rounded">
                     <h5 className="text-sm font-medium whitespace-nowrap">
-                      CPU Burst Time
+                      Job {job?.length + 1} CPU Burst Time
                     </h5>
                     <input
                       ref={inputRef}
